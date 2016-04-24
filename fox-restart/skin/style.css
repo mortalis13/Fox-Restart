@@ -1,0 +1,8 @@
+#restart-custom-button{
+  list-style-image: url(chrome://fox-restart/skin/images/icon16.png);
+}
+
+#restart-custom-button[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > #restart-custom-button{
+  list-style-image: url(chrome://fox-restart/skin/images/icon32.png);
+}
