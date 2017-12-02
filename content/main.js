@@ -2,19 +2,19 @@
 /* ******************************************* ui build *********************************************** */
 
 function loadIntoWindow(window){
-	try{
-		setShortFunctions(window)											//jQuery-like syntax
-		addMenuItem(window)
-		addKeyboardShortcut(window)
-	}
-	catch(e){}
+  try{
+    setShortFunctions(window)                     //jQuery-like syntax
+    addMenuItem(window)
+    addKeyboardShortcut(window)
+  }
+  catch(e){}
 }
 
 function unloadFromWindow(window){
-	if (!window) return
-	removeMenuItem(window)
-	removeKeyboardShortcut(window)
-	clearUserPrefs()
+  if (!window) return
+  removeMenuItem(window)
+  removeKeyboardShortcut(window)
+  clearUserPrefs()
 }
 
 /* ***************************************** load functions ******************************************** */
